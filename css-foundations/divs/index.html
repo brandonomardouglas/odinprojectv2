@@ -1,0 +1,45 @@
+<!--- This document will be used to test out CSS fundamentals-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>css-intro</title>
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+    <body>
+        <h1>Welcome to my CSS playground</h1>
+        <h2> This section we will learn about ID's, classes, and how this relate to divs</h2>
+        
+        <!--Here I am using a div id to 'section' a snippet of the website and then referencing it in style.css-->
+        <div id="liststyle">
+            <ol>
+                <li>Div means divider, used to block styling of other elements</li>
+            </ol>
+            <p>This pargraph of text will be used within the div's style!</p>
+        </div>
+
+        <!-- This won't work-->
+        <div id="lifestyle">
+            <p> This will not work as a id can only be applied to one element!</p>
+        </div>
+        <!-- Here we are using classes to style multiple elements-->
+        <div class="second-section">
+            <p>Styling element 1</p>
+        </div>
+
+        <div class="second-section">
+            <p>This will be the same style as 'Styling element 1' due to the class attribute</p>
+        </div>
+        <p class="second-section">This should not be styled as second-section targets divs only as div.class was used in the css file</p>
+
+        
+
+  
+        
+
+
+    </body>
+
+    </body>
+</html>

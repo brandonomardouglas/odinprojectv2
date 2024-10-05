@@ -1,0 +1,9 @@
+
+/*  Here I am using ID as this can only be applied to one element (that is inside the div) */
+
+div#liststyle {
+    background-color: red;
+}
+div.second-section {
+    background-color: blue;
+}
