@@ -16,22 +16,24 @@
             <ol>
                 <li>Div means divider, used to block styling of other elements</li>
             </ol>
-            <p>This pargraph of text will be used within the div's style due to the div element</p>
+            <p>This paragraph of text will be used within the div's style due to the div element</p>
         </div>
 
-        <!-- This won't work-->
+        <!-- This won't work as id's only work for one single element-->
         <div id="lifestyle">
             <p> This will not work as the lifestyle id was used previously on line 15.</p>
         </div>
-        <!-- Here we are using classes to style multiple elements-->
+
+        <!-- Here we are combining the section-section css to many divs as classes can be used for many different elements.-->
         <div class="second-section">
             <p>Styling element 1</p>
         </div>
 
         <div class="second-section">
-            <p>This will be the same style as 'Styling element 1' due to the class attribute</p>
+            <p>This will be the same style as line 29 due to the class attribute</p>
         </div>
-        <p class="second-section">This should not be styled as in the stylesheet we specified second-section to be a div.class so its only applicable to divs </p>
+
+        <p class="second-section">This should not be styled as in the stylesheet we specified second-section to be a div via div.section-section class so its only applicable to divs </p>
 
         <!-- Selectors-->
         
