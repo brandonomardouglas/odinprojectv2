@@ -1,9 +1,12 @@
 
 /*  Here I am using ID as this can only be applied to one element (that is inside the div) */
 
+/* This will style the list tag */
 div#liststyle {
     background-color: red;
 }
+
+/* this will be used to demonstrate div classes*/
 div.second-section {
     background-color: blue;
 }
