@@ -1,4 +1,6 @@
 
+
+
 /*  Here I am using ID as this can only be applied to one element (that is inside the div) */
 
 /* This will style the list tag */
@@ -10,3 +12,24 @@ div#liststyle {
 div.second-section {
     background-color: blue;
 }
+
+
+/* This universal selector will override everything */
+* {
+    outline: 2px solid red;
+  }
+
+/* Selector that will select all of the elements with div tags */
+/* div clases and ids won't be affected as they have their own colours applied to them specifically */
+div {
+    background-color: yellow;
+}
+  
+/* All paragprahs will not have white text, and ONLY <p> types */
+p {
+    color: white;
+}
+
+
+/* Chaining Selector */
+
